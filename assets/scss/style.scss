@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+// font-family: 'Roboto', sans-serif;
+
+
+*{
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffdf00;
+  font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  margin-top: 10%;
+}
+
+.card {
+  margin: 1rem;
+  width: 370px;
+  padding: 2em;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 12px 32px 4px rgba(black, 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: 0.2s;
+
+  &:hover {
+    transform: translateY(-5px);
+  }
+
+  .title {
+    color: white;
+    margin: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 12px;
+    transition: 0.2s;
+    cursor: pointer;
+  }
+}
+
+input {
+  border: none;
+  color: #000;
+  padding: 15px 32px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 8px;
+  box-shadow: 0 12px 32px 4px rgba(black, 0.2);
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+  background: #0336FF;
+  box-shadow: 0 12px 32px 4px rgba(black, 0.2);
+
+  &--button-clr {
+    background-color: #FF0266;
+    &:hover {
+      box-shadow: 0 0 12px rgba(#FF0266, 0.8);
+    }
+  }
+}
+
+button:hover {
+  box-shadow: 0 0 12px rgba(#0336FF, 0.8);
+}
+
+.autocomplete > div.selected {
+  background: #fff;
+  cursor: pointer;
+}
