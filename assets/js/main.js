@@ -80,6 +80,8 @@ showBtn.addEventListener("click", () => {
             output.appendChild(image);
             break;
         default:                   
-            console.log('Nothing typed'); 
+            zodiacName.innerText = "You must enter your birth month!"
+            zodiacDes.innerText = "";
+            output.removeChild(image);
     }
 });
