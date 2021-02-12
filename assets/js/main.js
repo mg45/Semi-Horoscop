@@ -79,7 +79,7 @@ showBtn.addEventListener("click", () => {
             zodiacDes.innerText = "Breaking the rules is not always a bad thing—especially if the rules limit your creativity."
             output.appendChild(image);
             break;
-        default:                   // Für alle anderen Werte (und alle obigen Fälle)
-            console.log('Nothing typed');   // wird der Bildname "unknown.png" verwendet.
+        default:                   
+            console.log('Nothing typed'); 
     }
 });
